@@ -1,0 +1,82 @@
+html,
+body,
+main {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #ebebeb;
+	text-align: center;
+	color: #484848;
+	font-family: sans-serif;
+	padding: 0;
+	overflow: hidden;
+	font-size: 16px;
+}
+button {
+	background-color: rgba(255, 255, 255, 0.2);
+	border: 0.1rem solid rgba(255, 255, 255, 0.1);
+	border-radius: 0.2rem;
+	box-shadow: 0 0 2rem rgba(255, 255, 255, 0.35);
+	padding: 0.5rem 1rem;
+	color: #fff;
+	cursor: pointer;
+	font-size: 1rem;
+	margin: 1rem;
+}
+main {
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	flex-direction: column-reverse;
+}
+.map-container {
+	height: 89.6vh;
+	width: 49.8vh;
+	/* height: 44.8vmax;
+	width: 24.9vmax; */
+	overflow: auto;
+	position: relative;
+	background: #fff;
+	text-align: left;
+	border: 0.5rem solid rgba(0, 0, 0, 0.12);
+	border-radius: 2rem;
+}
+
+.map-container img,
+.map-container svg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#track16,
+#track11,
+#track5,
+#traffic-control {
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out;
+}
+
+fieldset {
+	border: none;
+}
+
+fieldset label {
+	margin: 0 1rem 0 0;
+}
+
+fieldset:has(#t16:checked) ~ .map-container #track16,
+fieldset:has(#t11:checked) ~ .map-container #track11,
+fieldset:has(#t5:checked) ~ .map-container #track5,
+fieldset:has(#tc:checked) ~ .map-container #traffic-control {
+	opacity: 1;
+}
+
+/* #t16:checked ~ #t11:checked ~ #t5:checked ~ svg #track16,
+#t16:checked ~ #t11:checked ~ #t5:checked ~ svg #track11,
+#t16:checked ~ #t11:checked ~ #t5:checked ~ svg #track5 {
+	opacity: 0.66;
+} */
