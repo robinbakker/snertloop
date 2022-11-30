@@ -1,11 +1,11 @@
 {
-  "private": true,
-  "scripts": {
-    "start": "wmr",
-    "build": "wmr build",
-    "serve": "wmr serve --http2"
-  },
-  "devDependencies": {
-    "wmr": "^3.8.0"
-  }
+	"private": true,
+	"scripts": {
+		"start": "wmr",
+		"build": "wmr build --prerender",
+		"serve": "wmr serve --http2"
+	},
+	"devDependencies": {
+		"wmr": "^3.8.0"
+	}
 }
