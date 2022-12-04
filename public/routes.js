@@ -3,77 +3,691 @@ const Routes = () => {
 	return (
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 249 448">
 			<g id="track16">
-				<defs>
+				<mask
+					id="_mask_LJW5jsIt5KU9NjYOxw7IbWUN02vRz4Ec"
+					x="-200%"
+					y="-200%"
+					width="400%"
+					height="400%"
+				>
+					<rect
+						x="-200%"
+						y="-200%"
+						width="400%"
+						height="400%"
+						style="fill:white;"
+					/>
 					<path
-						id="path16"
-						d="m75.1 360.3-22-27.8L34 302.3l-2.3-14.5-4.1-44.6-5.8-10.4-4.1-39.4-3.5-23.8V144l9.8-4 29-3.5 2.9-4.1L46 65.7l2.3-3.5 14.5-4.6v-7.5L75 48.4l2.9 4.1L109.3 42l-1-10.4 2.7-1.9-.2-2.7 15.1-12.6 30 34.8 2.7-.4L177.2 33l57.6 68.4-19.3 15.3-14.7 13.1-8.5 6.8-5 7.5-7.2 5.8-6.4 7.7-4.1 7.7-24 13.3 16.4 36.1v7.2l10.4 24.4-21.8 10.4 1 4.6 3.7 3.7 3.1 5.2 3.5 3.5 4.6 1.5 7 3.1 5.8 1.7 11.2 12.8.4 5.2 36.5 33.6 2.7 4.8 2.5 2.1-23.2 49.5-4.1 3.1-4.4-.4-18-3.5-6.4-6.8-43.1 36.9-5.4 3.3-5.6.6-5.6-1.5-10.2-12.4-10.4-14.7-14.5-24.4-4.3-6.4-2.3-1.5z"
-					></path>
-					<mask id="outside-path16">
-						<rect x="0" y="0" width="249" height="448" fill="white" />
-						<use xlink:href="#path16" fill="black" />
-					</mask>
-				</defs>
-				<use
-					xlink:href="#path16"
-					stroke-width="10"
-					stroke="#FF1919"
+						d=" M 74.1 361.913 L 52.1 333.571 L 33 302.782 L 30.7 287.999 L 26.6 242.529 L 20.8 231.927 L 16.7 191.758 L 13.2 167.494 L 13.2 141.395 L 23 137.317 L 52 133.749 L 54.9 129.569 L 45 61.568 L 47.3 58 L 61.8 53.311 L 61.8 45.664 L 74 43.931 L 76.9 48.111 L 108.3 37.406 L 107.3 26.804 L 110 24.867 L 109.8 22.114 L 124.9 9.268 L 154.9 44.747 L 157.6 44.339 L 176.2 28.231 L 233.8 97.965 L 214.5 113.563 L 199.8 126.918 L 191.3 133.851 L 186.3 141.497 L 179.1 147.41 L 172.7 155.26 L 168.6 163.11 L 144.6 176.67 L 161 213.474 L 161 220.814 L 171.4 245.69 L 149.6 256.293 L 150.6 260.982 L 154.3 264.754 L 157.4 270.056 L 160.9 273.624 L 165.5 275.153 L 172.5 278.314 L 178.3 280.047 L 189.5 293.096 L 189.9 298.398 L 226.4 332.653 L 229.1 337.547 L 231.6 339.688 L 208.4 390.153 L 204.3 393.313 L 199.9 392.905 L 181.9 389.337 L 175.5 382.404 L 132.4 420.024 L 127 423.388 L 121.4 424 L 115.8 422.471 L 105.6 409.829 L 95.2 394.842 L 80.7 369.967 L 76.4 363.442 L 74.1 361.913 L 74.1 361.913 Z "
+						fill="black"
+						stroke="none"
+					/>
+				</mask>
+				<path
+					d=" M 74.1 361.913 L 52.1 333.571 L 33 302.782 L 30.7 287.999 L 26.6 242.529 L 20.8 231.927 L 16.7 191.758 L 13.2 167.494 L 13.2 141.395 L 23 137.317 L 52 133.749 L 54.9 129.569 L 45 61.568 L 47.3 58 L 61.8 53.311 L 61.8 45.664 L 74 43.931 L 76.9 48.111 L 108.3 37.406 L 107.3 26.804 L 110 24.867 L 109.8 22.114 L 124.9 9.268 L 154.9 44.747 L 157.6 44.339 L 176.2 28.231 L 233.8 97.965 L 214.5 113.563 L 199.8 126.918 L 191.3 133.851 L 186.3 141.497 L 179.1 147.41 L 172.7 155.26 L 168.6 163.11 L 144.6 176.67 L 161 213.474 L 161 220.814 L 171.4 245.69 L 149.6 256.293 L 150.6 260.982 L 154.3 264.754 L 157.4 270.056 L 160.9 273.624 L 165.5 275.153 L 172.5 278.314 L 178.3 280.047 L 189.5 293.096 L 189.9 298.398 L 226.4 332.653 L 229.1 337.547 L 231.6 339.688 L 208.4 390.153 L 204.3 393.313 L 199.9 392.905 L 181.9 389.337 L 175.5 382.404 L 132.4 420.024 L 127 423.388 L 121.4 424 L 115.8 422.471 L 105.6 409.829 L 95.2 394.842 L 80.7 369.967 L 76.4 363.442 L 74.1 361.913 L 74.1 361.913 Z "
 					fill="none"
-					vector-effect="non-scaling-stroke"
-					stroke-miterlimit="3"
-					stroke-linejoin="round"
-					mask="url(#outside-path16)"
 				/>
 				<path
-					stroke-miterlimit="3"
-					stroke-linejoin="round"
-					stroke="#FF1919"
-					stroke-width="5"
-					vector-effect="non-scaling-stroke"
+					d=" M 74.1 361.913 L 52.1 333.571 L 33 302.782 L 30.7 287.999 L 26.6 242.529 L 20.8 231.927 L 16.7 191.758 L 13.2 167.494 L 13.2 141.395 L 23 137.317 L 52 133.749 L 54.9 129.569 L 45 61.568 L 47.3 58 L 61.8 53.311 L 61.8 45.664 L 74 43.931 L 76.9 48.111 L 108.3 37.406 L 107.3 26.804 L 110 24.867 L 109.8 22.114 L 124.9 9.268 L 154.9 44.747 L 157.6 44.339 L 176.2 28.231 L 233.8 97.965 L 214.5 113.563 L 199.8 126.918 L 191.3 133.851 L 186.3 141.497 L 179.1 147.41 L 172.7 155.26 L 168.6 163.11 L 144.6 176.67 L 161 213.474 L 161 220.814 L 171.4 245.69 L 149.6 256.293 L 150.6 260.982 L 154.3 264.754 L 157.4 270.056 L 160.9 273.624 L 165.5 275.153 L 172.5 278.314 L 178.3 280.047 L 189.5 293.096 L 189.9 298.398 L 226.4 332.653 L 229.1 337.547 L 231.6 339.688 L 208.4 390.153 L 204.3 393.313 L 199.9 392.905 L 181.9 389.337 L 175.5 382.404 L 132.4 420.024 L 127 423.388 L 121.4 424 L 115.8 422.471 L 105.6 409.829 L 95.2 394.842 L 80.7 369.967 L 76.4 363.442 L 74.1 361.913 L 74.1 361.913 Z "
 					fill="none"
-					d="m75.5 360.5 3.4-5 9.4-7.2 6.7-9.1 4.8-3.9 6.6-2.8"
-				></path>
+					mask="url(#_mask_LJW5jsIt5KU9NjYOxw7IbWUN02vRz4Ec)"
+					vector-effect="non-scaling-stroke"
+					stroke-width="12"
+					stroke="rgb(255,25,25)"
+					stroke-linejoin="miter"
+					stroke-linecap="butt"
+					stroke-miterlimit="4"
+				/>
+				<path
+					d=" M 75.5 362.116 L 78.9 357.019 L 88.3 349.679 L 95 340.401 L 99.8 336.425 L 106.4 333.571"
+					fill="none"
+					vector-effect="non-scaling-stroke"
+					stroke-width="8"
+					stroke="rgb(255,25,25)"
+					stroke-linejoin="round"
+					stroke-linecap="butt"
+					stroke-miterlimit="3"
+				/>
 			</g>
 			<g id="track11">
 				<path
-					stroke-miterlimit="3"
+					d=" M 74.1 361.913 L 52.1 333.571 L 33 302.782 L 30.7 287.999 L 26.6 242.529 L 20.8 231.927 L 16.7 191.758 L 13.2 167.494 L 13.2 141.395 L 23 137.317 L 52 133.749 L 54.9 129.569 L 96.4 117.131 L 104.5 110.606 L 111.7 110.606 L 141 177.383 L 144.6 176.568 L 161 213.372 L 161 220.712 L 171.4 245.588 L 149.6 256.191 L 150.6 260.88 L 154.3 264.652 L 157.4 269.954 L 160.9 273.522 L 165.5 275.051 L 172.5 278.212 L 178.3 279.945 L 189.5 292.995 L 189.9 298.296 L 226.4 332.551 L 229.1 337.445 L 231.6 339.586 L 208.4 390.153 L 204.3 393.313 L 199.9 392.905 L 181.9 389.337 L 175.5 382.404 L 132.4 420.024 L 127 423.388 L 121.4 424 L 115.8 422.471 L 105.6 409.829 L 95.2 394.842 L 80.7 369.967 L 76.4 363.442 L 74.1 361.913 L 74.1 361.913 L 74.1 361.913 Z "
+					fill="none"
+					vector-effect="non-scaling-stroke"
+					stroke-width="5"
+					stroke="rgb(70,70,255)"
+					stroke-linejoin="round"
 					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke="#4646FF"
-					stroke-width="6"
-					vector-effect="non-scaling-stroke"
-					fill="none"
-					d="m75.1 360.3-22-27.8L34 302.3l-2.3-14.5-4.1-44.6-5.8-10.4-4.1-39.4-3.5-23.8V144l9.8-4 29-3.5 2.9-4.1 41.5-12.2 8.1-6.4h7.2l29.3 65.5 3.6-.8 16.4 36.1v7.2l10.4 24.4-21.8 10.4 1 4.6 3.7 3.7 3.1 5.2 3.5 3.5 4.6 1.5 7 3.1 5.8 1.7 11.2 12.8.4 5.2 36.5 33.6 2.7 4.8 2.5 2.1-23.2 49.6-4.1 3.1-4.4-.4-18-3.5-6.4-6.8-43.1 36.9-5.4 3.3-5.6.6-5.6-1.5-10.2-12.4-10.4-14.7-14.5-24.4-4.3-6.4-2.3-1.5h0z"
-				></path>
-				<path
 					stroke-miterlimit="3"
-					stroke-linejoin="round"
-					stroke="#3535FF"
-					stroke-width="6"
-					vector-effect="non-scaling-stroke"
+				/>
+				<path
+					d=" M 75.5 362.116 L 78.9 357.019 L 88.3 349.679 L 95 340.401 L 99.8 336.425 L 106.4 333.571"
 					fill="none"
-					d="m75.5 360.5 3.4-5 9.4-7.2 6.7-9.1 4.8-3.9 6.6-2.8"
-				></path>
+					vector-effect="non-scaling-stroke"
+					stroke-width="4"
+					stroke="rgb(53,53,255)"
+					stroke-linejoin="round"
+					stroke-linecap="butt"
+					stroke-miterlimit="3"
+				/>
 			</g>
 			<g id="track5">
-				<defs>
+				<mask id="_mask_5oWpt6Rgf4WyONSDbEAil4ArrKT2P5wM">
 					<path
-						id="path5"
-						d="m190.8 298.1 36.5 33.6 2.7 4.8 2.5 2.1-23.1 49.4-4.1 3.1-4.4-.4-18-3.5-6.4-6.8-43.1 36.9-5.4 3.3-5.6.6-5.6-1.5-10.2-12.4-10.4-14.7-14.5-24.4-4.3-6.4-1.9-1.4 3.4-5 9.4-7.2 6.7-9.1 4.8-3.9 6.6-2.8 7.9-3.3 3-3.2 12.2-4.3 16.5-4.8 20.6-10 17.5-8.8 6.7.1h0z"
-					></path>
-					<clipPath id="inside-path5">
-						<use xlink:href="#path5" />
-					</clipPath>
-				</defs>
-				<use
-					xlink:href="#path5"
-					stroke-width="6"
-					stroke="#009637"
-					vector-effect="non-scaling-stroke"
-					stroke-miterlimit="3"
-					stroke-linejoin="round"
+						d=" M 189.8 298.5 L 226.3 332.755 L 229 337.649 L 231.5 339.789 L 208.4 390.153 L 204.3 393.313 L 199.9 392.905 L 181.9 389.337 L 175.5 382.404 L 132.4 420.024 L 127 423.388 L 121.4 424 L 115.8 422.471 L 105.6 409.829 L 95.2 394.842 L 80.7 369.967 L 76.4 363.442 L 74.5 362.015 L 77.9 356.917 L 87.3 349.577 L 94 340.299 L 98.8 336.323 L 105.4 333.469 L 113.3 330.104 L 116.3 326.842 L 128.5 322.458 L 145 317.564 L 165.6 307.369 L 183.1 298.398 L 189.8 298.5 L 189.8 298.5 Z "
+						fill="white"
+						stroke="none"
+					/>
+				</mask>
+				<path
+					d=" M 189.8 298.5 L 226.3 332.755 L 229 337.649 L 231.5 339.789 L 208.4 390.153 L 204.3 393.313 L 199.9 392.905 L 181.9 389.337 L 175.5 382.404 L 132.4 420.024 L 127 423.388 L 121.4 424 L 115.8 422.471 L 105.6 409.829 L 95.2 394.842 L 80.7 369.967 L 76.4 363.442 L 74.5 362.015 L 77.9 356.917 L 87.3 349.577 L 94 340.299 L 98.8 336.323 L 105.4 333.469 L 113.3 330.104 L 116.3 326.842 L 128.5 322.458 L 145 317.564 L 165.6 307.369 L 183.1 298.398 L 189.8 298.5 L 189.8 298.5 Z "
 					fill="none"
-					clip-path="url(#inside-path5)"
 				/>
+				<path
+					d=" M 189.8 298.5 L 226.3 332.755 L 229 337.649 L 231.5 339.789 L 208.4 390.153 L 204.3 393.313 L 199.9 392.905 L 181.9 389.337 L 175.5 382.404 L 132.4 420.024 L 127 423.388 L 121.4 424 L 115.8 422.471 L 105.6 409.829 L 95.2 394.842 L 80.7 369.967 L 76.4 363.442 L 74.5 362.015 L 77.9 356.917 L 87.3 349.577 L 94 340.299 L 98.8 336.323 L 105.4 333.469 L 113.3 330.104 L 116.3 326.842 L 128.5 322.458 L 145 317.564 L 165.6 307.369 L 183.1 298.398 L 189.8 298.5 L 189.8 298.5 Z "
+					fill="none"
+					mask="url(#_mask_5oWpt6Rgf4WyONSDbEAil4ArrKT2P5wM)"
+					vector-effect="non-scaling-stroke"
+					stroke-width="10"
+					stroke="rgb(0,150,55)"
+					stroke-linejoin="round"
+					stroke-linecap="round"
+					stroke-miterlimit="3"
+				/>
+			</g>
+			<g id="kilometers16">
+				<g id="km1">
+					<rect
+						x="42.453"
+						y="323.453"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,245.072,63.094)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_gZEbV3hJ2o9BlRXh9Dj2wzNiULHe4AAk)">
+						<text
+							transform="matrix(1,0,0,1,44.381,329.671)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							1
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_gZEbV3hJ2o9BlRXh9Dj2wzNiULHe4AAk">
+							<rect
+								x="0"
+								y="0"
+								width="6"
+								height="8.171"
+								transform="matrix(1,0,0,1,44.094,323.258)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
+				<g id="km2">
+					<rect
+						x="19.078"
+						y="247.828"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,184.751,57.472)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_aWlKR6i8JudWoRD5NTcxzLmTWO2Rm3Pa)">
+						<text
+							transform="matrix(1,0,0,1,21.006,254.046)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							2
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_aWlKR6i8JudWoRD5NTcxzLmTWO2Rm3Pa">
+							<rect
+								x="0"
+								y="0"
+								width="6"
+								height="8.171"
+								transform="matrix(1,0,0,1,20.719,247.633)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
+				<g id="km3">
+					<rect
+						x="5.578"
+						y="158.328"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,117.511,40.804)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_Gn8QhcZDTEBlictw9cGa84qu5cSJBBFf)">
+						<text
+							transform="matrix(1,0,0,1,7.506,164.546)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							3
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_Gn8QhcZDTEBlictw9cGa84qu5cSJBBFf">
+							<rect
+								x="0"
+								y="0"
+								width="6"
+								height="8.171"
+								transform="matrix(1,0,0,1,7.219,158.133)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
+				<g id="km4">
+					<rect
+						x="45.828"
+						y="109.078"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,94.475,-2.082)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_e4MD8ct4SjolnjHMWoXcYJtvLIA3x2WR)">
+						<text
+							transform="matrix(1,0,0,1,47.756,115.296)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							4
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_e4MD8ct4SjolnjHMWoXcYJtvLIA3x2WR">
+							<rect
+								x="0"
+								y="0"
+								width="6"
+								height="8.171"
+								transform="matrix(1,0,0,1,47.469,108.883)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
+				<g id="km5">
+					<rect
+						x="47.828"
+						y="48.078"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,51.927,-21.362)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_1DoHM5lVV3HVtm3S8XW66tBp8amkyKgl)">
+						<text
+							transform="matrix(1,0,0,1,49.756,54.296)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							5
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_1DoHM5lVV3HVtm3S8XW66tBp8amkyKgl">
+							<rect
+								x="0"
+								y="0"
+								width="6"
+								height="8.171"
+								transform="matrix(1,0,0,1,49.469,47.883)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
+				<g id="km6">
+					<rect
+						x="107.828"
+						y="12.328"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,44.221,-74.26)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_HsqkIRlNXLz6pWDBqXtPEGsQ3zepoHM8)">
+						<text
+							transform="matrix(1,0,0,1,109.756,18.546)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							6
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_HsqkIRlNXLz6pWDBqXtPEGsQ3zepoHM8">
+							<rect
+								x="0"
+								y="0"
+								width="6"
+								height="8.171"
+								transform="matrix(1,0,0,1,109.469,12.133)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
+				<g id="km7">
+					<rect
+						x="164.578"
+						y="26.578"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,70.919,-110.214)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_L4kIqgYtg1bwU0lby6bW5LPZdBX50UCh)">
+						<text
+							transform="matrix(1,0,0,1,166.506,32.796)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							7
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_L4kIqgYtg1bwU0lby6bW5LPZdBX50UCh">
+							<rect
+								x="0"
+								y="0"
+								width="6"
+								height="8.171"
+								transform="matrix(1,0,0,1,166.219,26.383)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
+				<g id="km8">
+					<rect
+						x="216.578"
+						y="73.328"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,119.207,-133.291)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_m8gBPb5p7EizRtZmgSBM8SfdPIvhs7Gq)">
+						<text
+							transform="matrix(1,0,0,1,218.506,79.546)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							8
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_m8gBPb5p7EizRtZmgSBM8SfdPIvhs7Gq">
+							<rect
+								x="0"
+								y="0"
+								width="6"
+								height="8.171"
+								transform="matrix(1,0,0,1,218.219,73.133)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
+				<g id="km9">
+					<rect
+						x="190.578"
+						y="132.328"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,153.311,-97.626)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_byHo54acMkmJiEJu0hNI9as2IKOxnc1I)">
+						<text
+							transform="matrix(1,0,0,1,192.506,138.546)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							9
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_byHo54acMkmJiEJu0hNI9as2IKOxnc1I">
+							<rect
+								x="0"
+								y="0"
+								width="6"
+								height="8.171"
+								transform="matrix(1,0,0,1,192.219,132.133)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
+				<g id="km10">
+					<rect
+						x="151.828"
+						y="177.078"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,173.604,-57.118)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_fTFpc7b9PmvqSQxveHS3beWHALVy9uwr)">
+						<text
+							transform="matrix(1,0,0,1,151.966,183.296)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							10
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_fTFpc7b9PmvqSQxveHS3beWHALVy9uwr">
+							<rect
+								x="0"
+								y="0"
+								width="9"
+								height="8.171"
+								transform="matrix(1,0,0,1,151.891,176.883)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
+				<g id="km11">
+					<rect
+						x="153.578"
+						y="249.453"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,225.294,-37.157)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_3mR3fgpLHE3CwEBuMxcBnA8GsyQjmZtk)">
+						<text
+							transform="matrix(1,0,0,1,153.716,255.671)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							11
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_3mR3fgpLHE3CwEBuMxcBnA8GsyQjmZtk">
+							<rect
+								x="0"
+								y="0"
+								width="9"
+								height="8.171"
+								transform="matrix(1,0,0,1,153.641,249.258)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
+				<g id="km12">
+					<rect
+						x="197.578"
+						y="299.953"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,273.89,-53.479)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_QMsigE3baoWdZWGSVq5ql2VG78xBDFMg)">
+						<text
+							transform="matrix(1,0,0,1,197.375,306.171)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							12
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_QMsigE3baoWdZWGSVq5ql2VG78xBDFMg">
+							<rect
+								x="0"
+								y="0"
+								width="9"
+								height="8.171"
+								transform="matrix(1,0,0,1,197.3,299.758)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
+				<g id="km13">
+					<rect
+						x="217.578"
+						y="367.953"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,327.831,-47.704)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_i1tzH46hb6o75pJ8vkIehM84bM63BztR)">
+						<text
+							transform="matrix(1,0,0,1,217.375,374.171)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							13
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_i1tzH46hb6o75pJ8vkIehM84bM63BztR">
+							<rect
+								x="0"
+								y="0"
+								width="9"
+								height="8.171"
+								transform="matrix(1,0,0,1,217.3,367.758)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
+				<g id="km14">
+					<rect
+						x="159.328"
+						y="394.453"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,329.508,1.246)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_9uokoTSX34g09ttsbySYI4mN4jiyLcly)">
+						<text
+							transform="matrix(1,0,0,1,159.125,400.671)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							14
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_9uokoTSX34g09ttsbySYI4mN4jiyLcly">
+							<rect
+								x="0"
+								y="0"
+								width="9"
+								height="8.171"
+								transform="matrix(1,0,0,1,159.05,394.258)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
+				<g id="km15">
+					<rect
+						x="88.328"
+						y="392.453"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,307.299,50.865)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_yEOqm5YqKMt8dlnXIajEUlKkHzq4bUk8)">
+						<text
+							transform="matrix(1,0,0,1,88.125,398.671)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							15
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_yEOqm5YqKMt8dlnXIajEUlKkHzq4bUk8">
+							<rect
+								x="0"
+								y="0"
+								width="9"
+								height="8.171"
+								transform="matrix(1,0,0,1,88.05,392.258)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
+				<g id="km16">
+					<rect
+						x="92.078"
+						y="326.703"
+						width="7.843"
+						height="7.843"
+						transform="matrix(0.707,0.707,-0.707,0.707,261.905,28.956)"
+						id="Rectangle"
+						fill="rgb(255,255,255)"
+						vector-effect="non-scaling-stroke"
+						stroke-width="1"
+						stroke="rgb(255,25,25)"
+						stroke-linejoin="miter"
+						stroke-linecap="square"
+						stroke-miterlimit="2"
+					/>
+					<g clip-path="url(#_clipPath_bVdDCpxEAqoDslaWi9lAAOaMlMvpZMIJ)">
+						<text
+							transform="matrix(1,0,0,1,91.875,332.921)"
+							id="Text"
+							style="font-family:sans-serif;font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
+						>
+							16
+						</text>
+					</g>
+					<defs>
+						<clipPath id="_clipPath_bVdDCpxEAqoDslaWi9lAAOaMlMvpZMIJ">
+							<rect
+								x="0"
+								y="0"
+								width="9"
+								height="8.171"
+								transform="matrix(1,0,0,1,91.8,326.508)"
+							/>
+						</clipPath>
+					</defs>
+				</g>
 			</g>
 			<g id="traffic-control">
 				<g id="nr1">
@@ -1596,6 +2210,38 @@ const Routes = () => {
 						</clipPath>
 					</defs>
 				</g>
+			</g>
+			<g id="start">
+				<mask id="_mask_Hd75ObOHj6fo218TKxrmrEOGaoJ7s0fB">
+					<circle
+						vector-effect="non-scaling-stroke"
+						cx="107"
+						cy="333"
+						r="3.625"
+						fill="white"
+						stroke="none"
+					/>
+				</mask>
+				<circle
+					vector-effect="non-scaling-stroke"
+					cx="107"
+					cy="333"
+					r="3.625"
+					fill="rgb(255,255,255)"
+				/>
+				<circle
+					vector-effect="non-scaling-stroke"
+					cx="107"
+					cy="333"
+					r="3.625"
+					fill="rgb(255,255,255)"
+					mask="url(#_mask_Hd75ObOHj6fo218TKxrmrEOGaoJ7s0fB)"
+					stroke-width="2"
+					stroke="rgb(0,0,0)"
+					stroke-linejoin="miter"
+					stroke-linecap="square"
+					stroke-miterlimit="3"
+				/>
 			</g>
 		</svg>
 	);

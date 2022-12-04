@@ -14,6 +14,8 @@ function App() {
 				<label for="t5">5km</label>
 				<input id="tc" type="checkbox" checked />
 				<label for="tc">Verkeersregelaar</label>
+				<input id="t16km" type="checkbox" checked />
+				<label for="t16km">16km labels</label>
 			</fieldset>
 			<div class="map-container">
 				{/* <Map /> */}

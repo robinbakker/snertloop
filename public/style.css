@@ -55,6 +55,7 @@ main {
 #track16,
 #track11,
 #track5,
+#kilometers16,
 #traffic-control {
 	opacity: 0;
 	transition: opacity 0.2s ease-in-out;
@@ -71,6 +72,7 @@ fieldset label {
 fieldset:has(#t16:checked) ~ .map-container #track16,
 fieldset:has(#t11:checked) ~ .map-container #track11,
 fieldset:has(#t5:checked) ~ .map-container #track5,
+fieldset:has(#t16km:checked) ~ .map-container #kilometers16,
 fieldset:has(#tc:checked) ~ .map-container #traffic-control {
 	opacity: 1;
 }
