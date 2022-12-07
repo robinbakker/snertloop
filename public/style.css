@@ -30,19 +30,98 @@ main {
 	display: flex;
 	align-items: center;
 	justify-items: center;
-	flex-direction: column-reverse;
+	flex-direction: column;
 }
+aside {
+	border: 0.5rem solid rgba(0, 0, 0, 0.12);
+	background: #fff;
+	border-radius: 2rem;
+	position: fixed;
+	right: 1rem;
+	bottom: 1rem;
+	text-align: left;
+	width: 15rem;
+	padding: 1rem;
+}
+aside > input {
+	display: none;
+}
+aside > input:checked ~ dl {
+	display: flex;
+}
+aside label {
+	user-select: none;
+	cursor: pointer;
+}
+aside label:hover {
+	text-decoration: underline;
+}
+aside h2 {
+	margin: 0;
+	text-align: center;
+}
+dl,
+dd,
+dt {
+	margin: 0;
+	padding: 0;
+}
+dl {
+	display: none;
+	line-height: 2rem;
+	flex-wrap: wrap;
+	margin-top: 0.75rem;
+}
+dd {
+	flex-grow: 1;
+	flex-basis: calc(100% - 3rem);
+}
+dt {
+	flex-basis: 2.5rem;
+	flex-shrink: 1;
+	width: 2.5rem;
+	height: 2rem;
+	overflow: hidden;
+	text-indent: 100rem;
+	position: relative;
+}
+dt svg {
+	position: absolute;
+	top: 0.33rem;
+	left: 0.5rem;
+	width: 1.2rem;
+	height: auto;
+}
+dt.svg--km svg {
+	width: 1.5rem;
+	top: 0.2rem;
+	left: 0.33rem;
+}
+dt.track::before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 2rem;
+	top: 0.75rem;
+	border-top: 0.4rem solid #ff1919;
+}
+dt.track11::before {
+	border-color: #4646ff;
+}
+dt.track5::before {
+	border-color: #009637;
+}
+
 .map-container {
 	height: 89.6vh;
 	width: 49.8vh;
-	/* height: 44.8vmax;
-	width: 24.9vmax; */
 	overflow: auto;
 	position: relative;
 	background: #fff;
 	text-align: left;
 	border: 0.5rem solid rgba(0, 0, 0, 0.12);
 	border-radius: 2rem;
+	margin-bottom: 2rem;
 }
 
 .map-container img,
@@ -62,6 +141,7 @@ main {
 }
 
 fieldset {
+	display: none;
 	border: none;
 }
 
@@ -77,8 +157,8 @@ fieldset:has(#tc:checked) ~ .map-container #traffic-control {
 	opacity: 1;
 }
 
-/* #t16:checked ~ #t11:checked ~ #t5:checked ~ svg #track16,
-#t16:checked ~ #t11:checked ~ #t5:checked ~ svg #track11,
-#t16:checked ~ #t11:checked ~ #t5:checked ~ svg #track5 {
-	opacity: 0.66;
-} */
+@media print {
+	fieldset {
+		display: none;
+	}
+}
