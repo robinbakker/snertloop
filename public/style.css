@@ -37,10 +37,9 @@ aside {
 	background: #fff;
 	border-radius: 2rem;
 	position: fixed;
-	right: 1rem;
 	bottom: 1rem;
 	text-align: left;
-	width: 15rem;
+	width: calc(100vw - 6rem);
 	padding: 1rem;
 }
 aside > input {
@@ -60,6 +59,20 @@ aside h2 {
 	margin: 0;
 	text-align: center;
 }
+aside h2 label::before {
+	content: '';
+	display: inline-block;
+	border-top: 0.75rem solid #ccc;
+	border-left: 0.65rem solid transparent;
+	border-right: 0.65rem solid transparent;
+	margin: 0 0.5rem 0 -1rem;
+	transform: rotate(180deg);
+	transition: transform 0.2s ease-in-out;
+}
+aside > input:checked ~ h2 label::before {
+	transform: rotate(0deg);
+}
+
 dl,
 dd,
 dt {
@@ -113,8 +126,9 @@ dt.track5::before {
 }
 
 .map-container {
-	height: 89.6vh;
-	width: 49.8vh;
+	height: auto;
+	width: calc(100% - 2rem);
+	aspect-ratio: 5 / 9;
 	overflow: auto;
 	position: relative;
 	background: #fff;
@@ -122,6 +136,18 @@ dt.track5::before {
 	border: 0.5rem solid rgba(0, 0, 0, 0.12);
 	border-radius: 2rem;
 	margin-bottom: 2rem;
+}
+
+@media (orientation: landscape) {
+	aside {
+		right: 1rem;
+		width: 15rem;
+	}
+
+	.map-container {
+		height: 80vh;
+		width: auto;
+	}
 }
 
 .map-container img,
@@ -154,6 +180,32 @@ fieldset:has(#t11:checked) ~ .map-container #track11,
 fieldset:has(#t5:checked) ~ .map-container #track5,
 fieldset:has(#t16km:checked) ~ .map-container #kilometers16,
 fieldset:has(#tc:checked) ~ .map-container #traffic-control {
+	opacity: 1;
+}
+
+aside dt.track16,
+aside dt.track16 + dd,
+aside dt.track11,
+aside dt.track11 + dd,
+aside dt.track5,
+aside dt.track5 + dd,
+aside dt.svg--km,
+aside dt.svg--km + dd,
+aside dt.svg--tc,
+aside dt.svg--tc + dd {
+	opacity: 0.5;
+}
+
+fieldset:has(#t16:checked) ~ aside dt.track16,
+fieldset:has(#t16:checked) ~ aside dt.track16 + dd,
+fieldset:has(#t11:checked) ~ aside dt.track11,
+fieldset:has(#t11:checked) ~ aside dt.track11 + dd,
+fieldset:has(#t5:checked) ~ aside dt.track5,
+fieldset:has(#t5:checked) ~ aside dt.track5 + dd,
+fieldset:has(#t16km:checked) ~ aside dt.svg--km,
+fieldset:has(#t16km:checked) ~ aside dt.svg--km + dd,
+fieldset:has(#tc:checked) ~ aside dt.svg--tc,
+fieldset:has(#tc:checked) ~ aside dt.svg--tc + dd {
 	opacity: 1;
 }
 
