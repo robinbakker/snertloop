@@ -196,6 +196,21 @@ aside dt.svg--tc + dd {
 	opacity: 0.5;
 }
 
+@media print {
+	aside dt.track16,
+	aside dt.track16 + dd,
+	aside dt.track11,
+	aside dt.track11 + dd,
+	aside dt.track5,
+	aside dt.track5 + dd,
+	aside dt.svg--km,
+	aside dt.svg--km + dd,
+	aside dt.svg--tc,
+	aside dt.svg--tc + dd {
+		display: none;
+	}
+}
+
 fieldset:has(#t16:checked) ~ aside dt.track16,
 fieldset:has(#t16:checked) ~ aside dt.track16 + dd,
 fieldset:has(#t11:checked) ~ aside dt.track11,
@@ -207,10 +222,5 @@ fieldset:has(#t16km:checked) ~ aside dt.svg--km + dd,
 fieldset:has(#tc:checked) ~ aside dt.svg--tc,
 fieldset:has(#tc:checked) ~ aside dt.svg--tc + dd {
 	opacity: 1;
-}
-
-@media print {
-	fieldset {
-		display: none;
-	}
+	display: block;
 }
