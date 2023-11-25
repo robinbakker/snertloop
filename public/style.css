@@ -10,7 +10,7 @@ body {
 	background: #ebebeb;
 	text-align: center;
 	color: #484848;
-	font-family: sans-serif;
+	font-family: system-ui, sans-serif;
 	padding: 0;
 	overflow: hidden;
 	font-size: 16px;
@@ -128,7 +128,7 @@ dt.track5::before {
 .map-container {
 	height: auto;
 	width: calc(100% - 2rem);
-	aspect-ratio: 5 / 9;
+	aspect-ratio: 203 / 285;
 	overflow: auto;
 	position: relative;
 	background: #fff;
@@ -164,6 +164,21 @@ dt.track5::before {
 #traffic-control {
 	opacity: 0;
 	transition: opacity 0.2s ease-in-out;
+}
+
+#track11 path,
+#track5 path,
+#track16 path {
+	stroke-width: 6 !important;
+}
+
+#kilometers16 rect {
+	stroke-width: 3 !important;
+}
+
+#kilometers16 text,
+#traffic-control text {
+	font-family: system-ui, sans-serif !important;
 }
 
 fieldset {

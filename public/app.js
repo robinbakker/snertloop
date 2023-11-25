@@ -17,7 +17,6 @@ const App = () => {
 				<label for="t16km">16km labels</label>
 			</fieldset>
 			<div class="map-container">
-				<img src="/assets/map.svg" alt="map" />
 				<Routes />
 			</div>
 			<aside>
