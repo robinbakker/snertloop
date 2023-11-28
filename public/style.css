@@ -126,8 +126,8 @@ dt.track5::before {
 }
 
 .map-container {
-	height: auto;
-	width: calc(100% - 2rem);
+	height: 80vh;
+	width: auto;
 	aspect-ratio: 203 / 285;
 	overflow: auto;
 	position: relative;
@@ -138,16 +138,20 @@ dt.track5::before {
 	margin-bottom: 2rem;
 }
 
+#start circle {
+	r: 26;
+}
+
 @media (orientation: landscape) {
 	aside {
 		right: 1rem;
 		width: 15rem;
 	}
 
-	.map-container {
+	/* .map-container {
 		height: 80vh;
 		width: auto;
-	}
+	} */
 }
 
 .map-container img,
@@ -166,10 +170,15 @@ dt.track5::before {
 	transition: opacity 0.2s ease-in-out;
 }
 
-#track11 path,
-#track5 path,
-#track16 path {
+#track11 path {
 	stroke-width: 6 !important;
+}
+#track5 path {
+	stroke-width: 14 !important;
+}
+
+#track16 path {
+	stroke-width: 14 !important;
 }
 
 #kilometers16 rect {
@@ -212,6 +221,7 @@ aside dt.svg--tc + dd {
 }
 
 @media print {
+	aside:has(> input:not(:checked)),
 	aside dt.track16,
 	aside dt.track16 + dd,
 	aside dt.track11,
