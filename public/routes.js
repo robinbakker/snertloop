@@ -108,18 +108,7 @@ const Routes = () => {
 				/>
 			</g>
 			<g id="track11">
-				<path
-					d=" M 607 1184.5 L 657 1261 L 740 1287 L 795 1348 L 795 1372 L 769 1372 L 623 1444.5 L 515 1487 L 503 1496.5 L 729 1771.5 L 758 1800.5 L 845 1818.5 L 868 1818.5 L 888 1800.5 L 991 1571.5 L 1009 1580.5 L 1110 1668.5 L 1203 1573.5 L 1222 1553.5 L 1249 1573.5 L 1292 1518.5 L 1312 1538.5 L 1336 1499.5 L 1188 1396.5 L 1162 1386.5 L 1060 1319.5 L 917 1219.5 L 876 1191.5 L 850 1180.5 L 823 1172.5 L 802 1156.5 L 769 1101.5 L 707.72 1134.5 M 200 997.5 L 406 893 M 607 1184.5 L 540 1205.5 L 490.389 1211.5 L 447.87 1205.5 L 429 1041.5 L 406 893 L 585 814.5 M 585 814.5 L 643 941.5 L 663 997.5 L 663 1015.5 L 668 1041.5 L 681 1071.5 L 707.72 1134.5"
-					fill-rule="evenodd"
-					id="11km"
-					fill="none"
-					vector-effect="non-scaling-stroke"
-					stroke-width="11"
-					stroke="rgb(70,70,255)"
-					stroke-linejoin="round"
-					stroke-linecap="round"
-					stroke-miterlimit="3"
-				/>
+				<path d=" M 607 1184.5 L 657 1261 L 740 1287 L 795 1348 L 795 1372 L 769 1372 L 623 1444.5 L 515 1487 L 503 1496.5 L 729 1771.5 L 758 1800.5 L 845 1818.5 L 868 1818.5 L 888 1800.5 L 991 1571.5 L 1009 1580.5 L 1110 1668.5 L 1203 1573.5 L 1222 1553.5 L 1249 1573.5 L 1292 1518.5 L 1312 1538.5 L 1336 1499.5 L 1188 1396.5 L 1162 1386.5 L 1060 1319.5 L 917 1219.5 L 876 1191.5 L 850 1180.5 L 823 1172.5 L 802 1156.5 L 769 1101.5 L 707.72 1134.5 M 406 893 M 607 1184.5 L 540 1205.5 L 490.389 1211.5 L 447.87 1205.5 L 429 1041.5 L 406 893 L 585 814.5 M 585 814.5 L 643 941.5 L 663 997.5 L 663 1015.5 L 668 1041.5 L 681 1071.5 L 707.72 1134.5" fill-rule="evenodd" id="11km" fill="none" vector-effect="non-scaling-stroke" stroke-width="11" stroke="rgb(70,70,255)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="3"/>
 			</g>
 			<g id="kilometers16">
 				<g id="km1">
@@ -1856,7 +1845,7 @@ const Routes = () => {
 						</clipPath>
 					</defs>
 				</g>
-				<g id="nr16">
+				{/* <g id="nr16">
 					<radialGradient
 						id="_rgradient_99"
 						fx="0.5"
@@ -1931,8 +1920,8 @@ const Routes = () => {
 							/>
 						</clipPath>
 					</defs>
-				</g>
-				<g id="nr17">
+				</g> */}
+				<g id="nr16">
 					<radialGradient
 						id="_rgradient_100"
 						fx="0.5"
@@ -1993,7 +1982,7 @@ const Routes = () => {
 							id="Text"
 							style="font-family:'Open Sans';font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
 						>
-							17
+							16
 						</text>
 					</g>
 					<defs>
@@ -2008,7 +1997,7 @@ const Routes = () => {
 						</clipPath>
 					</defs>
 				</g>
-				<g id="nr18">
+				<g id="nr17">
 					<radialGradient
 						id="_rgradient_101"
 						fx="0.5"
@@ -2069,7 +2058,7 @@ const Routes = () => {
 							id="Text"
 							style="font-family:'Open Sans';font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
 						>
-							18
+							17
 						</text>
 					</g>
 					<defs>
@@ -2084,7 +2073,7 @@ const Routes = () => {
 						</clipPath>
 					</defs>
 				</g>
-				<g id="nr19">
+				<g id="nr18">
 					<radialGradient
 						id="_rgradient_102"
 						fx="0.5"
@@ -2145,7 +2134,7 @@ const Routes = () => {
 							id="Text"
 							style="font-family:'Open Sans';font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
 						>
-							19
+							18
 						</text>
 					</g>
 					<defs>
@@ -2160,7 +2149,7 @@ const Routes = () => {
 						</clipPath>
 					</defs>
 				</g>
-				<g id="nr20">
+				<g id="nr19">
 					<radialGradient
 						id="_rgradient_103"
 						fx="0.5"
@@ -2221,7 +2210,7 @@ const Routes = () => {
 							id="Text"
 							style="font-family:'Open Sans';font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
 						>
-							20
+							19
 						</text>
 					</g>
 					<defs>
@@ -2297,7 +2286,7 @@ const Routes = () => {
 							id="Text"
 							style="font-family:'Open Sans';font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
 						>
-							21
+							20
 						</text>
 					</g>
 					<defs>
