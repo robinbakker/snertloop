@@ -55,7 +55,7 @@ const App = () => {
 					</dd>
 					<dt class="track track11">Blauwe lijn</dt>
 					<dd>
-						<label for="t11">Route 11 km</label>
+						<label for="t11">Route 10 km</label>
 					</dd>
 					<dt class="track track5">Groene lijn</dt>
 					<dd>
