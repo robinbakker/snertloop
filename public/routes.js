@@ -1845,83 +1845,7 @@ const Routes = () => {
 						</clipPath>
 					</defs>
 				</g>
-				{/* <g id="nr16">
-					<radialGradient
-						id="_rgradient_99"
-						fx="0.5"
-						fy="0.5"
-						cx="0.5"
-						cy="0.5"
-						r="0.5"
-						gradientTransform="matrix(44.632,0,0,44.632,177,972.368)"
-						gradientUnits="userSpaceOnUse"
-					>
-						<stop
-							offset="0%"
-							stop-opacity="1"
-							style="stop-color:rgb(255,255,0)"
-						/>
-						<stop
-							offset="99.16666666666667%"
-							stop-opacity="1"
-							style="stop-color:rgb(202,202,0)"
-						/>
-					</radialGradient>
-					<mask id="_mask_xfdCH56pHxf4luqHY4GGUQcmY1Dm3IVR">
-						<circle
-							vector-effect="non-scaling-stroke"
-							cx="199.31620397716082"
-							cy="994.6837960228394"
-							r="22.316203977160825"
-							id="Ellipse"
-							fill="white"
-							stroke="none"
-						/>
-					</mask>
-					<circle
-						vector-effect="non-scaling-stroke"
-						cx="199.31620397716082"
-						cy="994.6837960228394"
-						r="22.316203977160825"
-						id="Ellipse"
-						fill="url(#_rgradient_99)"
-					/>
-					<circle
-						vector-effect="non-scaling-stroke"
-						cx="199.31620397716082"
-						cy="994.6837960228394"
-						r="22.316203977160825"
-						id="Ellipse"
-						fill="url(#_rgradient_99)"
-						mask="url(#_mask_xfdCH56pHxf4luqHY4GGUQcmY1Dm3IVR)"
-						stroke-width="2"
-						stroke="rgb(0,0,0)"
-						stroke-linejoin="miter"
-						stroke-linecap="square"
-						stroke-miterlimit="3"
-					/>
-					<g clip-path="url(#_clipPath_gNEgTRpBsETjGp35JDQza7HNjiUyadaR)">
-						<text
-							transform="matrix(4.436,0,0,4.436,181.982,1005.008)"
-							id="Text"
-							style="font-family:'Open Sans';font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
-						>
-							16
-						</text>
-					</g>
-					<defs>
-						<clipPath id="_clipPath_gNEgTRpBsETjGp35JDQza7HNjiUyadaR">
-							<rect
-								x="0"
-								y="0"
-								width="9"
-								height="8.171"
-								transform="matrix(4.436,0,0,4.436,181.648,976.563)"
-							/>
-						</clipPath>
-					</defs>
-				</g> */}
-				<g id="nr16">
+				<g id="nr17">
 					<radialGradient
 						id="_rgradient_100"
 						fx="0.5"
@@ -1982,7 +1906,7 @@ const Routes = () => {
 							id="Text"
 							style="font-family:'Open Sans';font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
 						>
-							16
+							17
 						</text>
 					</g>
 					<defs>
@@ -1997,7 +1921,7 @@ const Routes = () => {
 						</clipPath>
 					</defs>
 				</g>
-				<g id="nr17">
+				<g id="nr18">
 					<radialGradient
 						id="_rgradient_101"
 						fx="0.5"
@@ -2058,7 +1982,7 @@ const Routes = () => {
 							id="Text"
 							style="font-family:'Open Sans';font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
 						>
-							17
+							18
 						</text>
 					</g>
 					<defs>
@@ -2073,7 +1997,7 @@ const Routes = () => {
 						</clipPath>
 					</defs>
 				</g>
-				<g id="nr18">
+				<g id="nr19">
 					<radialGradient
 						id="_rgradient_102"
 						fx="0.5"
@@ -2134,7 +2058,7 @@ const Routes = () => {
 							id="Text"
 							style="font-family:'Open Sans';font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
 						>
-							18
+							19
 						</text>
 					</g>
 					<defs>
@@ -2149,7 +2073,7 @@ const Routes = () => {
 						</clipPath>
 					</defs>
 				</g>
-				<g id="nr19">
+				<g id="nr20">
 					<radialGradient
 						id="_rgradient_103"
 						fx="0.5"
@@ -2210,7 +2134,7 @@ const Routes = () => {
 							id="Text"
 							style="font-family:'Open Sans';font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
 						>
-							19
+							20
 						</text>
 					</g>
 					<defs>
@@ -2225,7 +2149,7 @@ const Routes = () => {
 						</clipPath>
 					</defs>
 				</g>
-				<g id="nr20">
+				<g id="nr21">
 					<radialGradient
 						id="_rgradient_104"
 						fx="0.5"
@@ -2286,7 +2210,7 @@ const Routes = () => {
 							id="Text"
 							style="font-family:'Open Sans';font-weight:700;font-size:6px;font-style:normal;fill:#000000;stroke:none;"
 						>
-							20
+							21
 						</text>
 					</g>
 					<defs>
